@@ -1,6 +1,6 @@
 <template>
     <div>
-    <img src="~/assets/logo.jpeg" alt="Logo">
+    <img src="~/assets/logo2.png" alt="Logo">
       <h1>{{ postTitle }}</h1>
       <router-link v-if="prevPostId" :to="'/posts/' + prevPostId">Article précédent</router-link>
       <router-link v-if="nextPostId" :to="'/posts/' + nextPostId">Article suivant</router-link>
